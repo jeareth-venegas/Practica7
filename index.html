@@ -1,51 +1,72 @@
-body{
-    background-color: purple;
-}
-p, h1, h2, h3, h4, ul {
-    color: white;
-}
+<!DOCTYPE html>
+<html lang="es">
 
-body{
-    background-image: url(image.jpg);
-}
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="descripción de mi sitio web">
+    <meta name= "author" content="Jeareth Venegas">
+    <meta name="keywords" content=bloques>
+    <link rel="stylesheet" href="style.css">
+    <title>CSS - Text</title>
+</head>
 
+<body>
+  <h1 class = "uppercase">Text properties</h1>
+  <h3>Text color</h3>
+  <br>
+  <p class = "sansserif">The color property is used to set the color of the text. The color is specified by:</p>
+  <ul>
+    <li>a color name - like "red"</li>
+    <li>a HEX value - like "#ff0000"</li>
+    <li>an RGB value - like "rgb(255,0,0)"</li>
+  </ul>
+  <br>
+  <h3 class = "big">Text Alignment</h3>
+  <p class = "sansserif">The <em><strong>text-align</strong></em> property is used to set the horizontal alignment of a text. A text can be left or right aligned, centered, or justified.</p>
+  <br>
+  <h3 class = "big">Text Decoration</h3>
+  <p class = "sansserif">The <em><strong>text-decoration</strong></em> property is used to set or remove decorations from text. The value <em><strong>text-decoration: none;</strong></em> is often used to remove underlines from links</p>
+  <br>
+  <h3 class = "big">Text Transformation</h3>
+  <p class = "sansserif">>The <em><strong>text-transform</strong></em> property is used to specify uppercase and lowercase letters in a text. It can be used to turn everything into uppercase or lowercase letters, or capitalize the first letter of each word</p>
+  <br>
+  <h3 class = "big">Text Spacing</h3>
+  <br>
+  <h4 class = "big">Text Indentation</h4>
+  <p class = "sansserif">The <em><strong>text-indent</strong></em> property is used to specify the indentation of the first line of a text</p>
+  <br>
+  <h4 class = "big">Letter Spacing</h4>
+  <p class = "sansserif">The <em><strong>letter-spacing</strong></em> property is used to specify the space between the characters in a text.</p>
+  <br>
+  <h4 class = "big">Line Height</h4>
+  <p class = "sansserif">The <em><strong>line-height</strong></em> property is used to specify the space between lines</p>
+  <br>
+  <h3 class = "big">CSS Backgrounds</h3>
+  <br>
+  <h4 class = "big">background-color</h4>
+  <p class = "sansserif">The<em><strong>background-color</strong></em>property specifies the background color of an element.</p>
+  <h4 class = "big">background-image</h4>
+  <p class = "sansserif">The<em><strong>background-image</strong></em>property specifies an image to use as the background of an element.By default, the image is repeated so it covers the entire element</p>
+  <h4 class = "big">background-repeat</h4>
+  <p class = "sansserif">By default, the<em><strong>background-image</strong></em>property repeats an image both horizontally and vertically. Some images should be repeated only horizontally or vertically, or they will look strange</p>
+  <h4 class = "big" >background-position</h4>
+  <p class = "sansserif">The<em><strong>background-position</strong></em>property is used to specify the position of the background image.</p>
+  <br>
+  <h3 class = "big">CSS Fonts</h3>
+  <h4 class = "big">font-family </h4>
+  <h4 class = "big">font-style </h4>
+  <p class = "sansserif">This property has three values:</p>
+  <ul class = "sansserif">
+    <li>normal - The text is shown normally</li>
+    <li>italic - The text is shown in italics</li>
+    <li>oblique - The text is "leaning" (oblique is very similar to italic, but less supported)</li>
+  </ul>
+  <h4 class = "big">font-weight</h4>
+  <p class = "sansserif">The font-weight property specifies the weight of a font</p>
+  <h4 class = "big">Font Variant</h4>
+  <p class = "sansserif">The font-variant property specifies whether or not a text should be displayed in a small-caps font.</p>
+  <h4 class = "big">Font Size</h4>
+  <p class = "sansserif">The font-size property sets the size of the text.</p>
+</body>
 
-/*text align*/
-
-p {
-    text-align: justify;
-}
-
-/*text decoration*/
-
-h2, h3 {
-    text-decoration: overline;
-}
-
-/*text transform*/
-h1.uppercase{
-    text-transform: uppercase;
-}
-
-/*letter spacing*/
-
-h1 {
-    letter-spacing: 15px;
-}
-
-/* line-heigth*/
-
-h3.big{
-    line-height: 0.10;
-}
-
-h4.big{
-    line-height: 0.9;
-}
-
-/*fonts*/
-
-ul, p.sansserif{
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+</html>
